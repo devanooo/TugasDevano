@@ -4,11 +4,8 @@
 # Tanggal: / /
 
 # +=========================================================================+ #
-#                       Definisi dan Spesifikasi Selektor
+#                               Selektor
 # +=========================================================================+ #
-
-# (variable) = (input) -> (output)
-# (detailed description)
 
 def bil(p):
     return p[0]
@@ -23,7 +20,7 @@ def penyebut(p):
     return p[1]
 
 # +=========================================================================+ #
-#                        Definisi dan Spesifikasi Konstruktor
+#                                Konstruktor
 # +=========================================================================+ #
 def makepecahancampuran(bil,pemcampur,penyecampur):
     return[bil,pemcampur,penyecampur]
@@ -32,7 +29,7 @@ def makepecahan(pembilang,penyebut):
     return[pembilang,penyebut]
 
 # +=========================================================================+ #
-#                         Realisasi Operator
+#                               Operator
 # +=========================================================================+ #
 
 def konversipecahan(P):
