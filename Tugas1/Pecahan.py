@@ -32,7 +32,7 @@ def makepecahan(pembilang,penyebut):
     return[pembilang,penyebut]
 
 # +=========================================================================+ #
-#                         Definisi dan Spesifikasi Operator
+#                         Realisasi Operator
 # +=========================================================================+ #
 
 def konversipecahan(P):
@@ -47,7 +47,21 @@ def AddP(P1,P2):
 def SubP(P1,P2):
     return makepecahancampuran(bil(P1) - bil(P2),n(P1)*d(P2) - n(P2)*d(P1), d(P1)*d(P2))
 
+def DifP(P1,P2):
+    return (pembilang(konversipecahan(P1))*penyebut(konversipecahan(P2))//(penyebut(konversipecahan(P1))*pembilang(konversipecahan(P2))))
 
+def MulP(P1,P2):
+    return (pembilang(konversipecahan(P1))*pembilang(konversipecahan(P2))/(penyebut(konversipecahan(P1))*penyebut(konversipecahan(P2))))
+
+# +=========================================================================+ #
+#                               Predikat
+# +=========================================================================+ #
+def IsEqP(P1,P2):
+    return konversireal(P1) == konversireal(P2)
+def IsLtP(P1,P2):
+    return konversireal(P1) < konversireal(P2)
+def IsLtP(P1,P2):
+    return konversireal(P1) > konversireal(P2)
 # +=========================================================================+ #
 #                               Realisasi
 # +=========================================================================+ #
@@ -56,3 +70,4 @@ def SubP(P1,P2):
 # +=========================================================================+ #
 #                                Aplikasi
 # +=========================================================================+ #
+
