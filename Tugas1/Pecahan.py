@@ -64,3 +64,10 @@ def IsLtP(P1,P2):
 #                                Aplikasi
 # +=========================================================================+ #
 
+print(konversipecahan(makepecahancampuran(2,1,3))) # [7,3]
+
+print(konversireal(makepecahancampuran(2,1,3))) # 6.3
+
+print(AddP(makepecahancampuran(2,1,3),makepecahancampuran(1,2,3))) #[3,9,9]
+
+print(SubP(makepecahancampuran(2,1,3),makepecahancampuran(1,2,3))) #[1,-3,9]
