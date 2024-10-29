@@ -57,7 +57,7 @@ def IsEqP(P1,P2):
     return konversireal(P1) == konversireal(P2)
 def IsLtP(P1,P2):
     return konversireal(P1) < konversireal(P2)
-def IsLtP(P1,P2):
+def IsGtP(P1,P2):
     return konversireal(P1) > konversireal(P2)
 
 # +=========================================================================+ #
