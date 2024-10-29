@@ -15,7 +15,7 @@
 
 
 # +=========================================================================+ #
-#                               Selektor
+#                   DEFINISI DAN SPESIFIKASI SELEKTOR
 # +=========================================================================+ #
 
 def bil(p):
@@ -36,7 +36,7 @@ def penyebut(p):
 # {bil(p) memberikan penyebut dari pecahan  P}
 
 # +=========================================================================+ #
-#                                Konstruktor
+#                   DEFINISI DAN SPESIFIKASI KONSTRUKTOR               
 # +=========================================================================+ #
 def makepecahancampuran(bil,pembilang,penyebut):
     return[bil,pembilang,penyebut]
@@ -47,7 +47,7 @@ def makepecahan(pembilang,penyebut):
 # {makepecahan(pembilang,penyebut) membentuk pecahan biasa dimana pembilang adalah pembilang dan penyebut adalah penyebut}
 
 # +=========================================================================+ #
-#                        Definisi dan Spesifikasi Operator
+#                      DEFINISI DAN SPESIFIKASI OPERATOR
 # +=========================================================================+ #
 
 # konversipecahan : pecahancampuran -> pecahan 
@@ -69,7 +69,7 @@ def makepecahan(pembilang,penyebut):
 
 
 # +=========================================================================+ #
-#                        Definisi dan Spesifikasi Predikat
+#                       DEFINISI DAN SPESIFIKASI PREDIKAT
 # +=========================================================================+ #
 # IsEqP?: 2 pecahancampuran -> boolean
 # IsEqP?(P1,P2) bernilai benar jika nilai real P1 sama dengan P2
